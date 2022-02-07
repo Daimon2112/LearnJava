@@ -136,6 +136,8 @@ public class Learn_list {
 //                System.out.println(line);
 //        }
 
+        //werewrwerwer
+
 
 
 
