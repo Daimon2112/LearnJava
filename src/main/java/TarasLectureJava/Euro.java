@@ -14,4 +14,5 @@ public class Euro extends AbstractCurrency implements FreeConverted {
     public boolean isFreeConverted() {
         return true;
     }
+
 }
