@@ -38,7 +38,7 @@ public class Learn_list {
             System.out.println(line);
         }
 
-        List<String> plane = Arrays.asList("1", "2");
+       List<String> plane = Arrays.asList("1", "2");
         //Arrays.asList()?????
 
 
