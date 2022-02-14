@@ -3,10 +3,12 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+import reporting.Logger;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -17,31 +19,80 @@ import java.util.concurrent.TimeUnit;
 public class Login {
     WebDriver driver;
 
-    @BeforeTest
-    public void setUp(){
-        System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver");
-        WebDriver driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
+//    @BeforeTest
+//    public void setUp(){
+//        System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver");
+//        WebDriver driver = new ChromeDriver();
+//        driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
 
-    }
+
 
 
     @Test
     public void validLogin(){
+        System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver");
+        WebDriver driver = new ChromeDriver();
+        driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
 
-        driver.get("https://github.com/login");
+        driver.get("https://www.google.com");
+        driver.findElement(By.name("q")).click();
+        driver.findElement(By.name("q")).sendKeys("что то");
 
-        driver.findElement(By.name("login")).click();
-        driver.findElement(By.name("login")).sendKeys("Daimon2112");
 
-        driver.findElement(By.name("password")).click();
-        driver.findElement(By.name("password")).sendKeys("21121992Dimon");
+        driver.findElement(By.name("btnK")).click();
 
-        driver.findElement(By.name("commit")).click();
 
-        Assert.assertTrue(driver.findElement(By.cssSelector("fdfs")).isDisplayed(), "blabla");
+        JavascriptExecutor js = (JavascriptExecutor) driver;
 
-    }
+        js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
+
+        List<WebElement> someElements = driver.findElements(By.cssSelector("div.AJLUJb"));
+
+
+
+        System.out.println(someElements.get(1).getSize() + "size");
+        System.out.println("------------");
+
+//        for (int i=0; i < someElements.size(); i++){
+//            for(WebElement line: someElements)
+//            System.out.println("Sometext" + someElements);
+//        } выдаёт весь список внизу
+
+//        String someText = "ну и что что";
+//        List<WebElement> listOfSome = driver.findElements(By.cssSelector("div.AJLUJb"));
+
+
+//        for (WebElement line: listOfSome){
+//            System.out.println(line);
+//            WebElement cell = line.findElement(By.cssSelector("div.AJLUJb"));
+//            if (cell.getText().equals(someText)){
+//                System.out.println(line);
+//            }
+        }
+
+
+
+
+
+
+
+
+
+//        driver.get("https://github.com/login");
+//
+//        driver.findElement(By.name("login")).click();
+//        driver.findElement(By.name("login")).sendKeys("Daimon2112");
+//
+//        driver.findElement(By.name("password")).click();
+//        driver.findElement(By.name("password")).sendKeys("21121992Dimon");
+//
+//        driver.findElement(By.name("commit")).click();
+
+        }
+
+       // Assert.assertTrue(driver.findElement(By.cssSelector("fdfs")).isDisplayed(), "blabla");
+
+
 
 //
 //    private boolean isЧтотодисплейд(){
@@ -53,8 +104,9 @@ public class Login {
 //    }
 
 
-    @AfterTest
-    public void tearDown(){
-        driver.quit();
-    }
-}
+//    @AfterTest
+//    public void tearDown(){
+//        driver.quit();
+//    }
+//}
+//
