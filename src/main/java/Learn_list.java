@@ -1,3 +1,6 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
 import javax.print.DocFlavor;
 import java.util.ArrayList;
 import java.util.*;
@@ -15,30 +18,30 @@ public class Learn_list {
 //
 //        System.out.println("------END------");
 //
-        ArrayList<String> ourList1 = new ArrayList<String>();
-        ourList1.add("test1");
-        System.out.println("list" + ourList1);
-
-        List<List<String>> ourListList = new ArrayList<List<String>>();
-        ourListList.add(new ArrayList<String>());
-        System.out.println(ourListList);
-        ourListList.get(0).add("test1");
-        ourListList.get(0).add("test21");
-        ourListList.add(new ArrayList<String>());
-        ourListList.get(1).add("test22");
-        ourListList.add(ourList1);
-        ourListList.add(ourList1);
-        ourList1.add("test3");
-        ourListList.add(ourList1);
-
-//        System.out.println(ourListList.get(0));
-//        System.out.println(ourListList.get(1)); //идуский код
-
-        for (List<String> line : ourListList) {// с помощью цикла мы вы водим строки по порядку
-            System.out.println(line);
-        }
-
-       List<String> plane = Arrays.asList("1", "2");
+//        ArrayList<String> ourList1 = new ArrayList<String>();
+//        ourList1.add("test1");
+//        System.out.println("list" + ourList1);
+//
+//        List<List<String>> ourListList = new ArrayList<List<String>>();
+//        ourListList.add(new ArrayList<String>());
+//        System.out.println(ourListList);
+//        ourListList.get(0).add("test1");
+//        ourListList.get(0).add("test21");
+//        ourListList.add(new ArrayList<String>());
+//        ourListList.get(1).add("test22");
+//        ourListList.add(ourList1);
+//        ourListList.add(ourList1);
+//        ourList1.add("test3");
+//        ourListList.add(ourList1);
+//
+////        System.out.println(ourListList.get(0));
+////        System.out.println(ourListList.get(1)); //идуский код
+//
+//        for (List<String> line : ourListList) {// с помощью цикла мы вы водим строки по порядку
+//            System.out.println(line);
+//        }
+//
+//       List<String> plane = Arrays.asList("1", "2");
         //Arrays.asList()?????
 
 
@@ -54,25 +57,31 @@ public class Learn_list {
 //
 //        System.out.println("------MY CODE------");
 //
-//        ArrayList<String> learnist = new ArrayList<String>();
-//        learnist.add("1");
-//        learnist.add("2");
-//        learnist.add("3");
-//        learnist.add("4");
-//        learnist.add("5");
-//        learnist.add(5, "information");
-//        System.out.println(learnist);
-//
-//        System.out.println("------END------");
-//
-//
-//        LinkedList<Integer> createNew = new LinkedList<Integer>();
-//        createNew.add(0, 5);
-//        createNew.add(1, 6);
-//        createNew.add(2, 7);
-//        System.out.println(createNew);
-//        createNew.remove(1);
-//        System.out.println(createNew);
+        ArrayList<String> learnist = new ArrayList<String>();
+        learnist.add("1");
+        learnist.add("2");
+        learnist.add("3");
+        learnist.add("4");
+        learnist.add("5");
+        learnist.add(5, "information");
+        System.out.println(learnist);
+
+        System.out.println("------END------");
+
+
+        LinkedList<Integer> createNew = new LinkedList<Integer>();
+        createNew.add(0, 5);
+        createNew.add(1, 6);
+        createNew.add(2, 7);
+        System.out.println(createNew);
+        createNew.remove(1);
+        System.out.println(createNew.get(1));
+
+
+//        List<WebElement> all = driver.findElements(By.xpath("//div[@data-abe]//b"));
+//        for (WebElement some: all){
+//            System.out.println(some.getText());
+//        } пример того как берётся список елементов а потом через цыкл записуется в другой и выводится текст
 
 
 

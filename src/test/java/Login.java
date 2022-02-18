@@ -1,7 +1,4 @@
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
@@ -32,26 +29,47 @@ public class Login {
     public void validLogin(){
         System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver");
         WebDriver driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(2,TimeUnit.SECONDS);
 
         driver.get("https://www.google.com");
         driver.findElement(By.name("q")).click();
         driver.findElement(By.name("q")).sendKeys("что то");
 
 
-        driver.findElement(By.name("btnK")).click();
+        driver.findElement(By.name("btnK")).sendKeys(Keys.ENTER);
 
 
         JavascriptExecutor js = (JavascriptExecutor) driver;
 
         js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
+        List<WebElement> all = driver.findElements(By.xpath("//div[@data-abe]//b"));
+        for (WebElement some: all){
+            System.out.println(some.getText());
+        }
 
-        List<WebElement> someElements = driver.findElements(By.cssSelector("div.AJLUJb"));
+        System.out.println("No cikle work");
+        }
+        }
 
 
 
-        System.out.println(someElements.get(1).getSize() + "size");
-        System.out.println("------------");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //        for (int i=0; i < someElements.size(); i++){
 //            for(WebElement line: someElements)
@@ -68,7 +86,7 @@ public class Login {
 //            if (cell.getText().equals(someText)){
 //                System.out.println(line);
 //            }
-        }
+
 
 
 
@@ -88,7 +106,7 @@ public class Login {
 //
 //        driver.findElement(By.name("commit")).click();
 
-        }
+
 
        // Assert.assertTrue(driver.findElement(By.cssSelector("fdfs")).isDisplayed(), "blabla");
 
