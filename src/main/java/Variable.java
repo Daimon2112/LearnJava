@@ -7,8 +7,8 @@ public class Variable {
     byte b = 0; // -128 - +128
     short a = 3266;//16 бит -32000 - +32000
     long c = 26246246;//64бит
-    double d = 235.35;
-    float e = 2362.4f;
+    double d = 235.35;//64бит
+    float e = 2362.4f;//32бит
     char f = 't';//символы
     boolean g = true;//false
 
