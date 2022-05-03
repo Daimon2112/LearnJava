@@ -10,5 +10,7 @@ public class HelloWorld {
         rez = var1 + var2;
         System.out.println("result = " + rez);
         int rezult = sum(100, 200);
+        234234
+
     }
 }
