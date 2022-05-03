@@ -17,5 +17,6 @@ public class HelloWorld {
         libsClass.sum("88b8", 99);
 
         System.out.println("---END----");
+        System.out.println("blablalblalbalb");
     }
 }
