@@ -12,9 +12,12 @@ public class LibsClass {
             int tempResult = Integer.parseInt(slogan1) + slogan2;
             System.out.println("Sum method = " + tempResult);
             return tempResult;
-        } catch (Exception e) {
+        } catch (NumberFormatException e) {//кетчей может быть много и каждом можно писать что поймав определённую ошибку типо NumberFormatException
             System.out.println("Error " + e);
             return 789;
+        } catch (Exception e){
+            System.out.println("blabla" + e);
+            return 777;
         }
     }
 }
