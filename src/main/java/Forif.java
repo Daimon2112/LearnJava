@@ -17,11 +17,11 @@ public class Forif {
 //        print("От 18 до 21")
 
         int b = 3;
-        if(b > 10){
+        if (b > 10) {
             System.out.println("b > 5");
             b++;
             System.out.println(b);
-        } else if (b < 10){
+        } else if (b < 10) {
             System.out.println("someone");
             b--;
             System.out.println(b);
@@ -31,7 +31,7 @@ public class Forif {
 
         int i = 3;
 
-        switch (i){
+        switch (i) {
             case 1:
                 System.out.println("number1");
             case 2:
@@ -42,12 +42,17 @@ public class Forif {
                 System.out.println("no number");
         }
 
+        int[] array = {2, 4, 10, 5, 6, 7, 8, 50, 20, 41, 63};
+
 
 //
 //        for (int i =0;i<=10;i++){//в первом блоке инициализируется переменная// во втором условии говорится ДО КАКИХ ПОР будет выполнятся цыкл//в третим условии что будет происходить в конце цыкла
 //            System.out.println("hello world");
 //        }
-    }}
+    }
+
+
+}
 
 
 //231-245-554
@@ -58,19 +63,6 @@ public class Forif {
 //Объект пользователя должен содержать метод для игры, который в свою очередь должен уметь обрабатывать успешную и не успешную комбинацию, и изменять настроение пользователя.
 
 //Количество попыток (вызовов метода игры в лотерею) = 3
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 //написать програмку для обмена бабла

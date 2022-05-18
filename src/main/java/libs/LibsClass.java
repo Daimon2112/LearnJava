@@ -20,4 +20,17 @@ public class LibsClass {
             return 777;
         }
     }
+
+    public void printArray(int[] array, int valueForComparing){
+        if (array.length > 0) {
+            for (int index = 0; index < array.length; index++) {
+                if (array[index] > 10) {
+                    System.out.println(array[0] + "blabla " + valueForComparing);
+                }
+            }
+        } else {
+            System.out.println("Eror");
+        }
+    }
+
 }

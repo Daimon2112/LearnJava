@@ -4,52 +4,59 @@ import org.openqa.selenium.WebElement;
 import javax.print.DocFlavor;
 import java.util.ArrayList;
 import java.util.*;
-
+// интерфейс - декларативное обьявления что должен наследовать наследник
+//отличается от класа тем что нету реализации методов - нету блока реализации
 public class Learn_list {
     public static void main(String[] args) {
 //        List ourList;
-//        ourList = new ArrayList();
-//        System.out.println(ourList);
+//        ourList = new ArrayList();//динамический список который реализует интерфейс лист
+//        //System.out.println(ourList);
 //        ourList.add("test");
 //        System.out.println(ourList);
+//        System.out.println("------1------");
 //        ourList.add(5);
 //        System.out.println(ourList);
+//        System.out.println("------2------");
 //        // System.out.println(ourList.get(-5));
+//        //ourList.isEmpty();
+//        System.out.println("-----------555---------");
 //
-//        System.out.println("------END------");
-//
-//        ArrayList<String> ourList1 = new ArrayList<String>();
-//        ourList1.add("test1");
-//        System.out.println("list" + ourList1);
-//
-//        List<List<String>> ourListList = new ArrayList<List<String>>();
-//        ourListList.add(new ArrayList<String>());
-//        System.out.println(ourListList);
-//        ourListList.get(0).add("test1");
-//        ourListList.get(0).add("test21");
-//        ourListList.add(new ArrayList<String>());
-//        ourListList.get(1).add("test22");
+        ArrayList<String> ourList1 = new ArrayList<String>();
+        ourList1.add("test1");
+        System.out.println("=======================");
+
+        List<List<String>> ourListList = new ArrayList<List<String>>();
+        ourListList.add(new ArrayList<String>());
+        System.out.println(ourListList);
+        System.out.println("--------------------------------------------");
+        ourListList.get(0).add("test11");
+        ourListList.get(0).add("test12");
+        ourListList.add(new ArrayList<String>());
+        ourListList.get(1).add("test21");
+        ourListList.add(ourList1);
+        ourListList.add(ourList1);
+        ourList1.add("test3");
 //        ourListList.add(ourList1);
-//        ourListList.add(ourList1);
-//        ourList1.add("test3");
-//        ourListList.add(ourList1);
-//
-////        System.out.println(ourListList.get(0));
-////        System.out.println(ourListList.get(1)); //идуский код
-//
-//        for (List<String> line : ourListList) {// с помощью цикла мы вы водим строки по порядку
-//            System.out.println(line);
-//        }
-//
+        System.out.println(ourListList);
+        System.out.println(ourList1);
+        System.out.println("--------------------------------------------");
+
+//        System.out.println(ourListList.get(0));
+//        System.out.println(ourListList.get(1)); //идуский код
+
+        for (List<String> line : ourListList) {// с помощью цикла мы вы водим строки по порядку// List<String> line -переменная куда записыватся будет//ourListList-откуда будут записывать
+            System.out.println(line);
+        }
+
 //       List<String> plane = Arrays.asList("1", "2");
-        //Arrays.asList()?????
+//        Arrays.asList()?????
 
 
 
 
 
 
-        //        System.out.println("------START------");
+//                System.out.println("------START------");
 //        ArrayList<String> ourList1 = new ArrayList<String>();
 //        ourList1.add("test1");
 //        System.out.println("list" + ourList1);
@@ -57,25 +64,25 @@ public class Learn_list {
 //
 //        System.out.println("------MY CODE------");
 //
-        ArrayList<String> learnist = new ArrayList<String>();
-        learnist.add("1");
-        learnist.add("2");
-        learnist.add("3");
-        learnist.add("4");
-        learnist.add("5");
-        learnist.add(5, "information");
-        System.out.println(learnist);
-
-        System.out.println("------END------");
-
-
-        LinkedList<Integer> createNew = new LinkedList<Integer>();
-        createNew.add(0, 5);
-        createNew.add(1, 6);
-        createNew.add(2, 7);
-        System.out.println(createNew);
-        createNew.remove(1);
-        System.out.println(createNew.get(1));
+//        ArrayList<String> learnist = new ArrayList<String>();
+//        learnist.add("1");
+//        learnist.add("2");
+//        learnist.add("3");
+//        learnist.add("4");
+//        learnist.add("5");
+//        learnist.add(5, "information");
+//        System.out.println(learnist);
+//
+//        System.out.println("------END------");
+//
+//
+//        LinkedList<Integer> createNew = new LinkedList<Integer>();
+//        createNew.add(0, 5);
+//        createNew.add(1, 6);
+//        createNew.add(2, 7);
+//        System.out.println(createNew);
+//        createNew.remove(1);
+//        System.out.println(createNew.get(1));
 
 
 //        List<WebElement> all = driver.findElements(By.xpath("//div[@data-abe]//b"));

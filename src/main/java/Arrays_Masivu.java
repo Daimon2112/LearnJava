@@ -18,19 +18,40 @@ public class Arrays_Masivu {
             System.out.println(numbers1[i]);
         }
 
-        int [] array = {2,4,26,7,28,10,9,20,33};
+        System.out.println("================= odin masive");
+
+
+        int[] array = {2,4,26,7,28,10,9,20,33};
         int[] array2 = new int[11];
         System.out.println(array[2]);
 
         array2[0] = 5;
         array2[1] = 6;
 
+
         for(int i=0; i<array2.length; i++){
             array2[i] = i;
-            System.out.print(array2[i] + ",");
+            System.out.print(array2[i] + ",");//заполняет масив
         }
+        System.out.println("=================drugoi");
+
+        for (int i = array.length - 1; i>=0; i--){
+            System.out.print(array[i] + " ");
+        }// выводит задом на перёд
+
+        System.out.println("=================");
+
+
+
 
     }
+
+
+
+
+
+
+
     public void printArray(int[] array, int valueForComparing){
         if (array.length>0){
             for (int index = 0; index < array.length; index++) {
@@ -46,5 +67,8 @@ public class Arrays_Masivu {
         }else {
             System.out.println("Error");
         }
+
+
+
 }
 }
