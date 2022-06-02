@@ -12,10 +12,14 @@ public class Learn_Map {
         System.out.println(ourMap);
         System.out.println(ourMap.get("Password"));
         System.out.println("==========================");
+
         for (Map.Entry entry: ourMap.entrySet()
              ) {
-            System.out.println(entry);
-        }//вытащить отсюда данные и поместить их в список
+            List<Map.Entry> somenew = new ArrayList<Map.Entry>();
+            somenew.add(entry);
+            System.out.println(somenew);//готово
+        }//данные берутся из мапа и помещаются в список
+
 
 
 

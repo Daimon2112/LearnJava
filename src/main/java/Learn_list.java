@@ -20,9 +20,11 @@ public class Learn_list {
 //        // System.out.println(ourList.get(-5));
 //        //ourList.isEmpty();
 //        System.out.println("-----------555---------");
-//
+
+        List<String> bleble = new ArrayList<String>();
         ArrayList<String> ourList1 = new ArrayList<String>();
         ourList1.add("test1");
+        System.out.println(ourList1);
         System.out.println("=======================");
 
         List<List<String>> ourListList = new ArrayList<List<String>>();
@@ -41,19 +43,16 @@ public class Learn_list {
         System.out.println(ourList1);
         System.out.println("--------------------------------------------");
 
+
 //        System.out.println(ourListList.get(0));
 //        System.out.println(ourListList.get(1)); //идуский код
 
-        for (List<String> line : ourListList) {// с помощью цикла мы вы водим строки по порядку// List<String> line -переменная куда записыватся будет//ourListList-откуда будут записывать
-            System.out.println(line);
-        }
+//        for (List<String> line : ourListList) {// с помощью цикла мы вы водим строки по порядку// List<String> line -переменная куда записыватся будет//ourListList-откуда будут записывать
+//            System.out.println(line);
+//        }
 
 //       List<String> plane = Arrays.asList("1", "2");
 //        Arrays.asList()?????
-
-
-
-
 
 
 //                System.out.println("------START------");
@@ -89,8 +88,6 @@ public class Learn_list {
 //        for (WebElement some: all){
 //            System.out.println(some.getText());
 //        } пример того как берётся список елементов а потом через цыкл записуется в другой и выводится текст
-
-
 
 
 //        Задача 1
@@ -145,30 +142,44 @@ public class Learn_list {
 //                arr.add(a);
 //            }
 //            ----вставить решение -----
+
+
+//    }
+//    private void printListList(List<List<String>> ourList1){
+//        System.out.println("---------");
+//        for (List<String> line: ourList1)
+//            System.out.println(line);
+//        System.out.println("------------------------------"); //---------------------------------нельзя запустить
+//    }
+
+//
+//
+//
+//
+//    public List<List<String>> addNewList(List<List<String>> ourList1){//метод лист которые принимает в себя параметр лист
+//        ourList1.add(new ArrayList<String>());
+//        printListList(ourList1);
+//        System.out.println("+++++++++++++++++++++++++++");
+//        return ourList1; ----------------------------------------------------------------------нельзя запустить
+//    }
+
+//        List<List<String>> addValueToListList(int numberOfList, String value, List<List<String>> ourList1){
+//            try {
+//                ourList1.get(numberOfList).add(value);
+//                printListList(ourList1);
+//                return ourList1;
+//            }catch (IndexOutOfBoundsException e){
+//                printListList(ourList1);
+//                System.out.println("для добавления елемента указан");
+//                return ourList1;
+//            }
 //        }
-//        private void printListList(List<List<String>> ourList1){
-//            System.out.println("---------");
-//            for (List<String> line: ourList1)
-//                System.out.println(line);
+
+//        List<List<String>> someList(List<List<String>>ourList1){
+//            ourList1.add(new ArrayList<String>());
+//            System.out.println();
 //        }
 
 
-//1
-        //2
-        //3
-
-
-
-
-//        public List<List<String>> addNewList(List<List<String>> ourList1){
-//            ourList1.add(new ArrayList<>());
-//            printListList(ourList1);
-//            return ourList1;
-//        }
-
-
-
-
-    }
-    }
+    }}
 
