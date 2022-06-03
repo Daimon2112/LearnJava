@@ -14,7 +14,7 @@ public class Learn_Map {
         System.out.println("==========================");
 
         for (Map.Entry entry: ourMap.entrySet()
-             ) {
+        ) {
             List<Map.Entry> somenew = new ArrayList<Map.Entry>();
             somenew.add(entry);
             System.out.println(somenew);//готово
