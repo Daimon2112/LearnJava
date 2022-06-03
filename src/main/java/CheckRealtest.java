@@ -39,6 +39,8 @@ public class CheckRealtest {
 //
 //                3. Создание суперкласа
 
+
+
     }
 
 }
