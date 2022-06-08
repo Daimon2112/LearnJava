@@ -26,7 +26,7 @@ public class WhileForcikles {
 //        int age = 30;
 //        float height = 1.7f;
 //
-//        System.out.printf("Name: %s  Age: %d  Height: %.2f \n", name, age, height);
+//        System.out.printf("Name: %s  Age: %d  Height: %.2f", name, age, height);
 
 //%d подставляет значение переменной x, а вместо второго - значение переменной y. Сама буква d означает, что данный спецификатор будет использоваться для вывода целочисленных значений.
 //
