@@ -1,3 +1,5 @@
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -31,6 +33,8 @@ public class CheckRealtest {
 //        assert (driver.findElement(By.xpath("//div[@class='label']")).getText().equals("Orders"));
 //
 //        driver.quit();
+
+
 //        по поводу реализации страниц через вебдрайвер есть 3 способа через которіе можно реализовать браузер и запуск тестов
 
 //        1. Пойти по пути синглтона и в класе пейдж-браузер описать бразуер и создать инстанс которий будет ссилатся
@@ -54,9 +58,27 @@ public class CheckRealtest {
 //        @BeforeTest
 //        public void что то(){ описание браузера и инициализируем страницы onePage = new OnePage(driver)//дальше будем добавлять страницы которые будем юзать}
 //        abstract public class BasePage{WebDriver Driver    protected AbstractBrowser(Webdriver driver)}
+//
+//        Вынести работу драйвера со страницой а именно например как клик или ввести текст что то отобразить и прочее
+//                нам нужно вынести это в отдельный класс и уже от туда передовать его в класы где оно будет реализовано.
+//                Для того что бы это сделать нам нужно в абстрактном класе а именно в конструкторе в абстрактном класе реализовать
+//                метод PageFactory. PageFactory будет работать в связке с анотацией @FindBy(xpath = "blabla")//вставляем любой локатор и любой нужный текст
+//                В конструкторе пишем PageFactory.initEllements(driver, this)//одна и таже пейджа для всех
+//                Отдельно в класе создаём описание действий с дополнением:
+//        public class somemethod{
+//        public void click(By locator) {
+//            waitVisibility(locator);
+//            highlightElement(locator);
+//            Logger.debug(" Clicking element" + driver.findElement(locator).getText() + "'(Located: " + locator + ")");
+//            waitPageElementLoad(locator);
+//            unHighlightElement(locator);
+//            driver.findElement(locator).click();}}
 
-
-
+//            А сам клас потом передаём в абстрактый клас в конструктор - что бы все остальные пейджы могли использовать эти методы
+//              somemethod somemethod;
+//                  public AbstractBrowser(WebDriver driver){
+//            this.driver = driver;PageFactory.initElements(driver,this);// одна и та же страка для всех пейджей//физически иници ализирует их
+//            someMet = new SomeMet(driver);}
 
 //
 //
