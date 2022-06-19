@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Arrays_Masivu {
     public static void main(String[] args) {
         int number = 10;// [10]
@@ -40,6 +42,10 @@ public class Arrays_Masivu {
         }// выводит задом на перёд
 
         System.out.println("=================");
+
+
+        int[][] blet = {{5, 4}, {6, 8}};
+        System.out.println(Arrays.deepToString(blet));//быстрый вывод масива
 
 
 

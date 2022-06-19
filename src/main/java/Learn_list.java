@@ -51,6 +51,24 @@ public class Learn_list {
 //            System.out.println(line);
 //        }
 
+//        int i = 0;
+//        List<String> learnlist = new ArrayList<String>();
+//        //learnlist.add("blabla");
+//        System.out.println(learnlist.size());
+//        while (learnlist.size() <= 5){
+//            learnlist.add("somenewshit"+ i++);
+//            System.out.println(learnlist.size());
+//            System.out.println(learnlist);// добавление через цыкл в список данных
+
+        //добавить/применить к списку
+//        for(int i=0; i<array2.length; i++){
+//            array2[i] = i;
+//            System.out.print(array2[i] + ",");//заполняет масив
+//        }
+//        System.out.println("=================drugoi");
+
+
+
 //       List<String> plane = Arrays.asList("1", "2");
 //        Arrays.asList()?????
 

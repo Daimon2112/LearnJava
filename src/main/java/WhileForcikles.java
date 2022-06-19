@@ -1,7 +1,6 @@
-import sun.awt.geom.AreaOp;
 
 public class WhileForcikles {
-    public static void main(String[] args) {
+//    public static void main(String[] args) {
 //        boolean t = true;
 //        boolean y = 5 > 4;
 //        boolean u = 5 == 5;
@@ -41,8 +40,8 @@ public class WhileForcikles {
 //%c: для вывода одиночного символа
 //
 //%s: для вывода строковых значений
-        for (int i = 0;i<=10;i++) {
-            System.out.println("SOMEONE");
-        }
-    }
+//        for (int i = 0;i<=10;i++) {
+//            System.out.println("SOMEONE");
+//        }
+//    }
  }

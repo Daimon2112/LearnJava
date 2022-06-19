@@ -48,4 +48,22 @@ public class Learn_Map {
 //        newMap.put("count", counterData.get(m));
 //        listAfterGroup.add(newMap);
 //    }
+
+
+//    List<Integer> newList = new ArrayList<>();
+//
+//    List<Integer> cow = new ArrayList<>();
+//        newList.add(1);
+//        newList.add(2);
+//        cow.add(3);
+//
+//        for (Integer line : newList) {
+//        //System.out.println(line);
+//        Map<Integer, Integer> blabla = new HashMap<Integer, Integer>();
+//        blabla.put(1, line);
+//        System.out.println(blabla);
+//    }
+//        System.out.println("-----------END----------");
+//}
+//}// ответ рядом образования листа в мапу
 }
