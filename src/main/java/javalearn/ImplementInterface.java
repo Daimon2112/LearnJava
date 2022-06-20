@@ -1,46 +1,55 @@
 package javalearn;
 
+import java.nio.charset.Charset;
 import java.util.*;
+import java.util.ArrayList;
 
-public class ImplementInterface {
+public class ImplementInterface implements LearnInterface {
     public static void main(String[] args) {
+        List<String> bike = Arrays.asList("Hi", "Hello", "Bye", "bye", "Meow", "hi", "Meow", "Be", "yBye");
+        for (int i = bike.size(); i <=0; i--) {
+            System.out.println(bike);
+            https://www.cyberforum.ru/java-beginners/thread1806308.html
 
-        List<String> blabla = Arrays.asList("first", "second", "third", "five","new", "boring");
-        String [] back = {"first", "second", "third", "five","new", "boring"};
-        for (int i = back.length-1; i>=0; i--) {
-            System.out.println(back[i]);
-            
         }
-        
-        List<String> milk = new ArrayList<>();
+//        List<String> tempList = new ArrayList<>();
 
-//        for (int i = 0; i < blabla.size(); i++) {
-//            String some = blabla.get(i);
-//            if (!milk.contains(some)){
-//                blabla.add(some);
-//                
+
+
+        String slovo = "Windows";
+        char[] nazad = slovo.toCharArray();
+        for (int i = nazad.length -1; i>=0 ; i--) {
+            System.out.print(nazad[i]);
+        }
+
+
+
+//        String [] blabla = {"qwe", "rtyu","cvbn"};
+//        for (int i = blabla.length-1; i >=0; i--) {
+//            String who = blabla[i];
+//            char[]bykvu = who.toCharArray();
+//            for (int j = 0; j < bykvu.length; j++) {
+//                System.out.print("["+bykvu[j]+"]");
 //            }
+            //System.out.println(who + "-----+++++");
+
+        }
+//        System.out.println("+++++++++++++++++++++++++++");
+//
+//        for (int i = 0; i < blabla.length; i++) {
+//            System.out.print("["+blabla[i]+"]");
 //        }
+//        System.out.println("--------------------------");
 
-
-
-        List<String> borabora = new ArrayList<>();
-        borabora.add("first");
-        borabora.add("second");
-        borabora.add("third");
-        borabora.add("five");
-        borabora.add("new");
-        borabora.add("boring");
-
-
-
-
-
+//        String slovo = "wiskas";
+//        char[]bukvy = slovo.toCharArray();
+//        for (int i = 0; i < bukvy.length; i++) {
+//            System.out.print("["+bukvy[i]+"]");
+//
+//        }//слово выводим побуквенно
 
 
     }
-
-}
 
 
 
