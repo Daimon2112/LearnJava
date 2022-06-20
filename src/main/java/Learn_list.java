@@ -21,27 +21,27 @@ public class Learn_list {
 //        //ourList.isEmpty();
 //        System.out.println("-----------555---------");
 
-        List<String> bleble = new ArrayList<String>();
-        ArrayList<String> ourList1 = new ArrayList<String>();
-        ourList1.add("test1");
-        System.out.println(ourList1);
-        System.out.println("=======================");
-
-        List<List<String>> ourListList = new ArrayList<List<String>>();
-        ourListList.add(new ArrayList<String>());
-        System.out.println(ourListList);
-        System.out.println("--------------------------------------------");
-        ourListList.get(0).add("test11");
-        ourListList.get(0).add("test12");
-        ourListList.add(new ArrayList<String>());
-        ourListList.get(1).add("test21");
-        ourListList.add(ourList1);
-        ourListList.add(ourList1);
-        ourList1.add("test3");
+//        List<String> bleble = new ArrayList<String>();
+//        ArrayList<String> ourList1 = new ArrayList<String>();
+//        ourList1.add("test1");
+//        System.out.println(ourList1);
+//        System.out.println("=======================");
+//
+//        List<List<String>> ourListList = new ArrayList<List<String>>();
+//        ourListList.add(new ArrayList<String>());
+//        System.out.println(ourListList);
+//        System.out.println("--------------------------------------------");
+//        ourListList.get(0).add("test11");
+//        ourListList.get(0).add("test12");
+//        ourListList.add(new ArrayList<String>());
+//        ourListList.get(1).add("test21");
 //        ourListList.add(ourList1);
-        System.out.println(ourListList);
-        System.out.println(ourList1);
-        System.out.println("--------------------------------------------");
+//        ourListList.add(ourList1);
+//        ourList1.add("test3");
+////        ourListList.add(ourList1);
+//        System.out.println(ourListList);
+//        System.out.println(ourList1);
+//        System.out.println("--------------------------------------------");
 
 
 //        System.out.println(ourListList.get(0));
@@ -93,13 +93,16 @@ public class Learn_list {
 //        System.out.println("------END------");
 //
 //
-//        LinkedList<Integer> createNew = new LinkedList<Integer>();
-//        createNew.add(0, 5);
-//        createNew.add(1, 6);
-//        createNew.add(2, 7);
-//        System.out.println(createNew);
-//        createNew.remove(1);
-//        System.out.println(createNew.get(1));
+        LinkedList<Integer> createNew = new LinkedList<Integer>();
+        createNew.add(0, 5);
+        createNew.add(1, 6);
+        createNew.add(2, 7);
+        createNew.add(8, 7);
+        System.out.println(createNew);
+        createNew.remove(1);
+        System.out.println(createNew);
+        createNew.removeFirst();
+        System.out.println(createNew);
 
 
 //        List<WebElement> all = driver.findElements(By.xpath("//div[@data-abe]//b"));
