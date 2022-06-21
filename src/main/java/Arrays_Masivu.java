@@ -48,6 +48,14 @@ public class Arrays_Masivu {
         System.out.println(Arrays.deepToString(blet));//быстрый вывод масива
 
 
+//        String [] blabla = {"qwe", "rtyu","cvbn"};
+//        for (int i = blabla.length-1; i >=0; i--) {
+//            String who = blabla[i];
+//            char[]bykvu = who.toCharArray();
+//            for (int j = 0; j < bykvu.length; j++) {
+//                System.out.print("["+bykvu[j]+"]");//вывод масивазадом на перёд + разбивка по буквам
+//            }
+
 
 
     }

@@ -51,6 +51,15 @@ public class Learn_list {
 //            System.out.println(line);
 //        }
 
+//        List<String> blabla = new ArrayList<>();
+//        Map<Integer, String> maper = new HashMap<>();
+//        blabla.add(0,"firstlist");
+//        for (int i = 0; i < blabla.size(); i++) {
+//            maper.put(i,blabla.get(i));
+//        }
+//        System.out.println(maper); // переобразование листа в мапу
+//    }
+
 //        int i = 0;
 //        List<String> learnlist = new ArrayList<String>();
 //        //learnlist.add("blabla");
