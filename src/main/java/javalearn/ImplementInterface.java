@@ -3,25 +3,55 @@ package javalearn;
 import java.nio.charset.Charset;
 import java.util.*;
 import java.util.ArrayList;
-
+//вывести цыкл цифр задом на перёд
 public class ImplementInterface implements LearnInterface {
     public static void main(String[] args) {
-        List<String> bike = Arrays.asList("Hi", "Hello", "Bye", "bye", "Meow", "hi", "Meow", "Be", "yBye");
-        for (int i = bike.size(); i <=0; i--) {
-            System.out.println(bike);
-            https://www.cyberforum.ru/java-beginners/thread1806308.html
+//        List<String> bike = Arrays.asList("Hi", "Hello", "Bye", "bye", "Meow", "hi", "Meow", "Be", "yBye");
+//        for (int i = bike.size(); i <=0; i--) {
+//            System.out.println(bike);
+//
+//        }
 
-        }
-//        List<String> tempList = new ArrayList<>();
+//вывести из листа только те слова в которых есть цыфра/буква/символ или больше какого то условия
 
 
+//        List<String> someList = Arrays.asList("Hi", "Hello", "Bye", "bye","fr", "gf", "vb", "Meow", "hi", "Hello","Meow", "Be", "Bye");
+//        Set<String> set = new LinkedHashSet<>();
+//        for (String somelis: someList) {
+//            if (Character.isUpperCase(somelis.charAt(0))){
+//                set.add(somelis);
+//            }
+//            System.out.println(set);
+//        } //выводит уникальыне значения из одного листа в другой ориентируясь только на большые буквы
+//        }
 
-        String slovo = "Windows";
-        char[] nazad = slovo.toCharArray();
-        for (int i = nazad.length -1; i>=0 ; i--) {
-            System.out.print(nazad[i]);
-        }
 
+//
+//        String[] blabla = {"Qwe", "rtyu", "Cvbn"};
+//        List<String> someList = new ArrayList<>();
+//        for (int i = 0; i < blabla.length; i++) {
+//            String someString = blabla[i];
+//            if (Character.isUpperCase(someString.charAt(0))){
+//                someList.add(someString);
+//            }
+//        System.out.println(someList + "------");//запихуем масив в лист
+
+//        String[] blabla = {"Qwe", "rtyu", "Cvbn"};
+//        List<String> someList = new ArrayList<>();
+//        for (String zxcv: blabla) {
+//            if (Character.isUpperCase(zxcv.charAt(0))){
+//                someList.add(zxcv);
+//            }
+//            System.out.println(someList);//запихуем масив в лист
+//
+//        }
+
+
+//        String slovo = "Windows";
+//        char[] nazad = slovo.toCharArray();
+//        for (int i = nazad.length -1; i>=0 ; i--) {
+//            System.out.print(nazad[i]);
+//        }
 
 
 //        String [] blabla = {"qwe", "rtyu","cvbn"};
@@ -31,9 +61,8 @@ public class ImplementInterface implements LearnInterface {
 //            for (int j = 0; j < bykvu.length; j++) {
 //                System.out.print("["+bykvu[j]+"]");
 //            }
-            //System.out.println(who + "-----+++++");
+        //System.out.println(who + "-----+++++");
 
-        }
 //        System.out.println("+++++++++++++++++++++++++++");
 //
 //        for (int i = 0; i < blabla.length; i++) {
@@ -42,15 +71,10 @@ public class ImplementInterface implements LearnInterface {
 //        System.out.println("--------------------------");
 
 //        String slovo = "wiskas";
-//        char[]bukvy = slovo.toCharArray();
-//        for (int i = 0; i < bukvy.length; i++) {
-//            System.out.print("["+bukvy[i]+"]");
+//        char[] bukvy = slovo.toCharArray();
+//        for (int i = bukvy.length-1; i >=0; i--) {
+//            System.out.print("[" + bukvy[i] + "]");
 //
-//        }//слово выводим побуквенно
-
-
+//        }//слово выводим побуквенно задом на перёд
     }
-
-
-
-
+}

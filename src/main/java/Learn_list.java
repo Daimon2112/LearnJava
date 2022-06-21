@@ -113,6 +113,26 @@ public class Learn_list {
         createNew.removeFirst();
         System.out.println(createNew);
 
+//        List<String> someList = Arrays.asList("Hi", "Hello", "Bye", "bye","fr", "gf", "vb", "Meow", "hi", "Hello","Meow", "Be", "Bye");
+//        Set<String> set = new LinkedHashSet<>();
+//        for (String somelis: someList) {
+//            if (Character.isUpperCase(somelis.charAt(0))){
+//                set.add(somelis);
+//            }
+//            System.out.println(set);
+//        } //выводит уникальыне значения из одного листа в другой ориентируясь только на большые буквы
+//    }
+
+        //        List<String> someList = Arrays.asList("Hi", "Hello", "Bye", "bye", "fr", "gf", "vb", "Meow", "hi", "Hello", "Meow", "Be", "Bye");
+//        String[] popi = new String[someList.size()];
+//        for (int i = 0; i <someList.size() ; i++) {
+//            popi[i] = someList.get(i);
+//        }
+//        for (String someString: popi) {
+//            String nm = someString;
+//        }
+//        }// из листа в масив
+
 
 //        List<WebElement> all = driver.findElements(By.xpath("//div[@data-abe]//b"));
 //        for (WebElement some: all){

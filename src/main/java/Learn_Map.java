@@ -1,7 +1,5 @@
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
+
 //MAP - это интерфейс описывающий отображения в виде ключ значение
 public class Learn_Map {
     public static void main(String[] args) {
@@ -47,6 +45,13 @@ public class Learn_Map {
 //        Map<String, Object> newMap = new HashMap<>(m);
 //        newMap.put("count", counterData.get(m));
 //        listAfterGroup.add(newMap);
+//    }
+
+//    List<String> blabla = Arrays.asList("first", "second", "third", "five","new", "boring");
+//    String [] back = {"first", "second", "third", "five","new", "boring"};
+//        for (int i = back.length-1; i>=0; i--) {
+//        System.out.println(back[i]);
+//
 //    }
 
 

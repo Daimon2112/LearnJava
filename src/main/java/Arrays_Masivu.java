@@ -1,4 +1,6 @@
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class Arrays_Masivu {
     public static void main(String[] args) {
@@ -55,6 +57,32 @@ public class Arrays_Masivu {
 //            for (int j = 0; j < bykvu.length; j++) {
 //                System.out.print("["+bykvu[j]+"]");//вывод масивазадом на перёд + разбивка по буквам
 //            }
+
+//        String[] blabla = {"Qwe", "rtyu", "Cvbn"};
+//        List<String> someList = new ArrayList<>();
+//        for (int i = 0; i < blabla.length; i++) {
+//            String someString = blabla[i];
+//            if (Character.isUpperCase(someString.charAt(0))){
+//                someList.add(someString);
+//            }
+//            System.out.println(someList + "------");//запихуем масив в лист
+//
+////        String[] blabla = {"Qwe", "rtyu", "Cvbn"};
+////        List<String> someList = new ArrayList<>();
+////        for (String zxcv: blabla) {
+////            if (Character.isUpperCase(zxcv.charAt(0))){
+////                someList.add(zxcv);
+////            }
+////            System.out.println(someList);//запихуем масив в лист
+////
+////        }
+
+        //        String slovo = "wiskas";
+//        char[] bukvy = slovo.toCharArray();
+//        for (int i = bukvy.length-1; i >=0; i--) {
+//            System.out.print("[" + bukvy[i] + "]");
+//
+//        }//слово выводим побуквенно задом на перёд
 
 
 
