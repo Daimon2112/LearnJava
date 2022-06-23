@@ -112,12 +112,9 @@ public class ImplementInterface{
 //        }
 //        return map;
 //    }
+12312312312312312
+    12312312312312
+    3123123123123
 
 
-    dsfsdfsdf
-    dsfsdfsdfsd
-
-    public dsfsdfsdf getDsfsdfsdfsd() {
-        sdf
-    }
 }
