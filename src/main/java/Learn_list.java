@@ -134,6 +134,18 @@ public class Learn_list {
 //        }// из листа в масив
 
 
+//        List<String> blabla = Arrays.asList("car1","car2", "car3", "car4", "car5", "car6");
+//        List<String>borabora = new LinkedList<>();
+//        for (String x: blabla){
+//            if (x.contains("8")) {
+//                System.out.println(x + " " + "vuvodim 3 simvol");
+//            }else {
+//                borabora.add(x);
+//                System.out.println(x);
+//            }
+//        }//если находим что то в слове тогда добавляем или удаляем что то
+
+
 //        List<WebElement> all = driver.findElements(By.xpath("//div[@data-abe]//b"));
 //        for (WebElement some: all){
 //            System.out.println(some.getText());

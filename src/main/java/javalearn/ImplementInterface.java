@@ -4,7 +4,7 @@ import java.nio.charset.Charset;
 import java.util.*;
 import java.util.ArrayList;
 //вывести цыкл цифр задом на перёд
-public class ImplementInterface implements LearnInterface {
+public class ImplementInterface{
     public static void main(String[] args) {
 //        List<String> bike = Arrays.asList("Hi", "Hello", "Bye", "bye", "Meow", "hi", "Meow", "Be", "yBye");
 //        for (int i = bike.size(); i <=0; i--) {
@@ -13,6 +13,24 @@ public class ImplementInterface implements LearnInterface {
 //        }
 
 //вывести из листа только те слова в которых есть цыфра/буква/символ или больше какого то условия
+
+
+        
+
+
+
+
+//        List<String> blabla = Arrays.asList("car1","car2", "car3", "car4", "car5", "car6");
+//        List<String>borabora = new LinkedList<>();
+//        for (String x: blabla){
+//            if (x.contains("8")) {
+//                System.out.println(x + " " + "vuvodim 3 simvol");
+//            }else {
+//                borabora.add(x);
+//                System.out.println(x);
+//            }
+//        }//если находим что то в слове тогда добавляем или удаляем что то
+
 
 
 //        List<String> someList = Arrays.asList("Hi", "Hello", "Bye", "bye","fr", "gf", "vb", "Meow", "hi", "Hello","Meow", "Be", "Bye");
@@ -76,5 +94,28 @@ public class ImplementInterface implements LearnInterface {
 //            System.out.print("[" + bukvy[i] + "]");
 //
 //        }//слово выводим побуквенно задом на перёд
+
+
+
     }
+
+//    @Override
+//    public Map<String, Integer> findUniquesInList(List<String> input_list) {
+//        Map<String, Integer> map = new HashMap<>();
+//        for (int i = 0; i < input_list.size(); i++) {
+//            String unicWord = input_list.get(i);
+//            if (!map.containsKey(unicWord)){
+//                map.put(unicWord, i);
+//            }else {
+//                map.remove(unicWord);
+//            }
+//        }
+//        return map;
+//    }
+ldskjfhklsdfhusdfhglhsdlkg
+
+
+
+
+
 }
