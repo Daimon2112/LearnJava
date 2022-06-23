@@ -112,10 +112,12 @@ public class ImplementInterface{
 //        }
 //        return map;
 //    }
-ldskjfhklsdfhusdfhglhsdlkg
 
 
+    dsfsdfsdf
+    dsfsdfsdfsd
 
-
-
+    public dsfsdfsdf getDsfsdfsdfsd() {
+        sdf
+    }
 }
