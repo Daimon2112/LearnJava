@@ -116,5 +116,14 @@ public class ImplementInterface{
     12312312312312
     3123123123123
 
+    ertertertertert
+    ertertertertertter
 
+    @Override
+    public String er
+    tetoString() {
+        return "ImplementInterface{" +
+                "ertertertertertter=" + ertertertertertter +
+                '}';
+    }
 }
