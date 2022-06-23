@@ -112,12 +112,18 @@ public class ImplementInterface{
 //        }
 //        return map;
 //    }
+12312312312312312
+    12312312312312
+    3123123123123
 
+    ertertertertert
+    ertertertertertter
 
-    dsfsdfsdf
-    dsfsdfsdfsd
-
-    public dsfsdfsdf getDsfsdfsdfsd() {
-        sdf
+    @Override
+    public String er
+    tetoString() {
+        return "ImplementInterface{" +
+                "ertertertertertter=" + ertertertertertter +
+                '}';
     }
 }
