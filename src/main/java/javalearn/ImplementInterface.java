@@ -114,8 +114,10 @@ public class ImplementInterface{
 //    }
 
 
+    dsfsdfsdf
+    dsfsdfsdfsd
 
-
-
-
+    public dsfsdfsdf getDsfsdfsdfsd() {
+        sdf
+    }
 }
