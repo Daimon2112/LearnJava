@@ -5,9 +5,45 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 
-public class RunImplMethod  {
+public class RunImplMethod extends AbstractSome  {
 
-    List<String> ourList = new ArrayList<String>();
+
+
+
+
+
+
+
+
+
+
+
+
+
+//    public static void blabla(String c){
+//        String b = "blabla";
+//        System.out.println(b + c);
+//    }
+//
+//    static String b = "blabla";
+
+//    private String name;
+//    private int age;
+//
+//    public String getName() {
+//        return this.name;
+//    }
+//
+//    public void setName(String name) {
+//        this.name = name;
+//    }
+//
+//    public void enterTexr(String name){
+//        String bl = "sdfg";
+//        System.out.println(bl + name);
+//    }
+
+
 
 
 //    List<String> blabla = Arrays.asList("first", "second", "third", "five","new", "boring");

@@ -7,7 +7,22 @@ import java.util.Map;
 
 public interface LearnInterface {
 
-    Map<String, Integer> findUniquesInList(List<String> input_list);
+
+    public void first();
+
+    public default void second() {
+        int b = 5;
+    }
+
+
+
+    ArrayList<String > bro = new ArrayList<>();
+
+    ArrayList<String> toyota = null;
+
+
+
+//    Map<String, Integer> findUniquesInList(List<String> input_list);
 //        Map<String, Integer> map = new HashMap<>();
 //        for (int i = 0; i < input_list.size(); i++) {
 //            String unicWord = input_list.get(i);
