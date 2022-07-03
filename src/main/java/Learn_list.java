@@ -123,7 +123,8 @@ public class Learn_list {
 //        } //выводит уникальыне значения из одного листа в другой ориентируясь только на большые буквы
 //    }
 
-        //        List<String> someList = Arrays.asList("Hi", "Hello", "Bye", "bye", "fr", "gf", "vb", "Meow", "hi", "Hello", "Meow", "Be", "Bye");
+
+//        List<String> someList = Arrays.asList("Hi", "Hello", "Bye", "bye", "fr", "gf", "vb", "Meow", "hi", "Hello", "Meow", "Be", "Bye");
 //        String[] popi = new String[someList.size()];
 //        for (int i = 0; i <someList.size() ; i++) {
 //            popi[i] = someList.get(i);
@@ -218,7 +219,7 @@ public class Learn_list {
 //
 //
 //
-//    public List<List<String>> addNewList(List<List<String>> ourList1){//метод лист которые принимает в себя параметр лист
+//    public List<List<String>> addNewList(List<List<String>> ourList1){//      метод лист которые принимает в себя параметр лист
 //        ourList1.add(new ArrayList<String>());
 //        printListList(ourList1);
 //        System.out.println("+++++++++++++++++++++++++++");

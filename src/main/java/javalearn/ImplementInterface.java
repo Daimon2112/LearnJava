@@ -23,9 +23,18 @@ public class ImplementInterface {
 
         Map<Integer, String> six = new HashMap<>();
 
-        List<String> uberList = Arrays.asList("Hi", "Hello", "Bye", "bye","fr", "gf", "vb", "Meow", "hi", "Hello","Meow", "Be", "Bye");
-        Set<String> uklon = new HashSet<>(uberList);
-        System.out.println(uklon);
+
+
+//        String [] vmn = {"Hi", "Hello", "Hello", "Bye", "bye", "hello","fr" ,"gf", "GF", "vb", "Meow", "hi", "Hello", "Meow", "Be", "Bye"};        //charAt находит символ по индексув слове
+//        Set<String> uklon = new LinkedHashSet<>();                                                                                   // вывести только уникальные значения
+//        for (String somelist: vmn) {
+//        if (Character.isUpperCase(somelist.charAt(0))){
+//            uklon.add(somelist);
+//        }
+//        }
+//        System.out.println(uklon);
+//    }
+}}
 
 
 //        {"Secrets"};//{"BATMAN"}//{"supermaN"}
@@ -80,7 +89,7 @@ public class ImplementInterface {
 //            zoe.put(i,road.get(i));
 //            System.out.println(zoe);
 //        }
-        }
+
 
 
 
@@ -91,7 +100,6 @@ public class ImplementInterface {
 
 
 
-    }
 
 
 //    @Override
